@@ -1,0 +1,37 @@
+//Kevin and Breanna's Week One Challeges
+
+
+//Breanna and Kevin's Challenge Two.
+
+public class ChallengeTwo {
+	
+    public void forLoop(){
+        
+            for(Integer num=1; num<=10; num++){
+                
+                system.debug(num);
+            }
+    }
+    
+    public void whileLoop(){
+    		Integer I=0;
+            while(I<=10){
+                system.debug(I);
+                I++;
+            }
+    }
+    
+    public void iffy(){
+      
+        boolean x=false;
+        if(x==true){
+            
+            system.debug('You are true!');
+        }
+        
+        else{
+            
+            system.debug('You are false!');
+        }
+    }
+}
