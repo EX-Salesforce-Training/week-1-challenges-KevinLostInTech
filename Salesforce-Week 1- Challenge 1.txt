@@ -1,0 +1,29 @@
+//Kevin and Breanna's Week 1, Day 4 Challenges
+
+Challenge one
+//Kevin and Breanna's challenge one
+
+public class ChallengeOne {
+    
+    String one;
+    Integer two;
+    Account three;
+    
+    public void SetValues(){
+         one = 'set';
+         two = 1;
+         three = new Account();
+        three.Name = 'Kevin and Breanna\'s account';
+        
+    }
+    
+    public void GetValues(){
+        system.debug(two);
+        system.debug(one);
+        system.debug(three);
+        
+    }
+
+}
+
+-----------------------------------------------------------------------

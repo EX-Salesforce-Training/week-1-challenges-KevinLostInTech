@@ -1,0 +1,19 @@
+Challenge 3
+
+//Kevin and Breanna
+public class ChallengeThree {
+    Account bob;
+    public void SetAccount(){
+        bob = new Account();
+        bob.Name= 'Huck';
+        bob.AnnualRevenue= 1000000;
+        bob.Description='A fast food chain!';
+    }
+    
+    public void GetAccount(){
+        system.debug(bob.Name);
+        system.debug(bob.AnnualRevenue);
+        system.debug(bob.Description);
+    }
+
+}
